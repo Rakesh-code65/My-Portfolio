@@ -3,6 +3,7 @@
     #2563EB;
     --secondary-color:#1F2937
 ;
+   --
 }
 
 .navigation{
@@ -10,24 +11,82 @@
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    margin: 1rem;
 }
 .nav-brand{
 
- 
+
     color: var(--primary-color);
 }
-.navigation .nav-pills{
+.navigation .menu-class{
+    display: grid;
     text-align: right;
+    padding: 1rem;
+    columns: 100px 3;
+
 }
 .container{
     padding-left: 1rem;
     padding-right:1rem ;
 }
-.list .non-bullet{
-    list-style: none;
-}
+
  .list-item-inline{
      display: inline;
      padding:0rem 0.5rem;
+     text-decoration: none;
  }   
 
+.image{
+
+    /* height: 300px; */
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.image .image-class{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    
+}
+.image .heading{
+    text-align: center;
+    color: var(--secondary-color);
+    padding-top: 1rem;
+}
+.image  .heading .heading-inverted{
+    color: var(--primary-color);
+}
+.section-tech{
+    /* max-width: 1200px; */
+    height: 20vh;
+    margin-top: 1rem;
+    padding:1rem;
+    text-align: center;
+    background-color:#D1D5DB;
+}
+.section-tech .section-header{
+    color: var(--primary-color);
+}
+.section-tech .section-paragraph{
+    color: var(--secondary-color);
+}
+
+
+}
+.section-project {
+    height: 20vh;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color:orchid;
+}
+.section-project .project-header{
+  color: var(--primary-color);
+}
+.section-project .btn-class{
+    background-color: var(--primary-color);
+    box-shadow: 2px solid lightblue;
+    border-radius: 5px;
+    padding-bottom: 0rem;
+}
