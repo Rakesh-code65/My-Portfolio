@@ -20,35 +20,34 @@
 .menu-class{
     display: flex;
     padding: 0.1rem;
-    list-style: none;
+   margin-bottom: 5px;
     float:right;     
-    background-color: black;
+    /* background-color: black; */
+
 }
 
-.list-item-inline {
-border: 2px solid red;
+.list-items-inline {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 25vh;
+border: 3px;
 display: inline;
-padding: 1rem;
+padding: 0rem 0.5rem;
 margin: 1px;
+/* text-decoration: none; */
+list-style: none;
+color:white;
 
 }
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem ;
-}
 
- .list-item-inline{
-     display: inline;
-     padding: 1px;
-     text-decoration: none;
- }   
+
 
 .image{
 
     /* height: 300px; */
     padding: 1rem;
     margin: 1rem;
-    
+
 }
 .image .image-class{
     max-width: 450px;
@@ -66,7 +65,7 @@ margin: 1px;
 }
 .section-tech{
     /* max-width: 1200px; */
-    height: 20vh;
+    height: 25vh;
     margin-top: 1rem;
     padding:1rem;
     text-align: center;
@@ -79,42 +78,63 @@ margin: 1px;
     color: var(--secondary-color);
 }
 
-}
-.sections-project {
-    height: 10vh;
-    margin-top: 10rem;
-    margin: auto;
-    /* text-align: center; */
-    color:rgb(145, 224, 42);
-    border: 2px solid rgb(89, 0, 255);
-    background-color: cornsilk;
-}
-.sections-project .project-header{
-  color: var(--primary-color);
+.project{
+height: 25vh;
+margin-top: 3px;
+background-color: rgb(149, 236, 218);
+padding: 1rem;
+text-align: center;
 }
 
-.sections-project .project-paragraph{
-    color: black;
+.project .project-header{
+
+    color: var(--primary-color);
+
 }
-.sections-project .btn-class{
-    background-color: var(--primary-color);
-    box-shadow: 2px solid lightblue;
-    border-radius: 5px;
-    padding-bottom: 0rem;
+.project .project-paragraph{
+    color: var(--secondary-color);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
-.section-blog{
-    height: 40px;
-    margin-top: 10px;
+
+.btn-class{
+    /* background-color: var(--primary-color); */
+    box-shadow: 2px solid rgb(196, 86, 72);
+    border-radius: 15px;
+    margin-top: 0.5rem;
+}
+.blog{
+    height: 25vh;
+    margin-top: 1rem;
+  
+    background-color: rgb(215, 218, 245);
     text-align: center;
-    background-color: brown;
 }
-
+.blog-header{
+    color: var(--primary-color);
+}
+.blog-paragraph{
+    color: var(--secondary-color);
+}
 .connect{
+
+    height: 20vh;
+    margin-top: 2rem;
+    background-color: rgb(114, 208, 252)6);
     text-align: center;
-    height: 30px;
-    margin-top: 15px;
-    background-color: darkcyan;
+    
 }
-.linked{
-    list-style: none;
+.connect .connect-header{
+    color:var(--primary-color);
+}
+
+.connect .linked{
+    /* list-style: none; */
+    
+   
+}
+.linked .link {
+    display: inline;
+    padding: 1rem 0.5rem;
+    
 }
