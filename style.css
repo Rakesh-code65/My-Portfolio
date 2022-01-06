@@ -1,16 +1,16 @@
 :root{
     --primary-color: 
-    #2563EB;
+    #2cdaa0;
     --secondary-color:#1F2937;
 
 }
 
 .navigation{
     background: var(--primary-color);
-    color: rgb(227, 241, 241);
+    color: rgb(245, 248, 248);
     padding: 3rem;
     border-bottom-left-radius: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     
 }
 .nav-brand{
@@ -22,8 +22,8 @@
     padding: 0.1rem;
    margin-bottom: 5px;
     float:right;     
-    /* background-color: black; */
-
+  
+ 
 }
 
 .list-items-inline {
@@ -34,7 +34,6 @@ border: 3px;
 display: inline;
 padding: 0rem 0.5rem;
 margin: 1px;
-/* text-decoration: none; */
 list-style: none;
 color:white;
 
@@ -82,7 +81,7 @@ color:white;
 height: 25vh;
 margin-top: 3px;
 margin-bottom: 0px;
-background-color: rgb(149, 236, 218);
+/* background-color: rgb(149, 236, 218); */
 padding: 1rem;
 text-align: center;
 }
@@ -103,12 +102,17 @@ text-align: center;
     box-shadow: 2px solid rgb(196, 86, 72);
     border-radius: 15px;
     margin-top: 0.5rem;
+
+}
+    a:hover, button:hover{
+    cursor: pointer;
+
 }
 .blog{
     height: 25vh;
-    margin-top: 1px;
+    margin-top: 0rem;
   
-    background-color: rgb(215, 218, 245);
+    background-color: #e3f1f1;
     text-align: center;
 }
 .blog-header{
@@ -118,24 +122,28 @@ text-align: center;
     color: var(--secondary-color);
 }
 .connect{
-
+border-bottom-left-radius: 1rem;
     height: 20vh;
-    margin-top: 2rem;
-    background-color: rgb(114, 208, 252)6);
-    text-align: center;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    text-align:center;
     
 }
 .connect .connect-header{
-    color:var(--primary-color);
+    color:var(--secondary-color);
 }
 
-.connect .linked{
-    /* list-style: none; */
-    
-   
-}
+
 .linked .link {
     display: inline;
     padding: 1rem 0.5rem;
     
+}
+ol{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+  
+   
 }
